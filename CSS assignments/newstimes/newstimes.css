@@ -1,0 +1,92 @@
+h1{
+    font-family: "Snell Roundhand";
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+    padding: 25px;
+    margin:20px auto;
+    font-size: 300%;
+    color: black;
+}
+
+body{
+    background-color: cornsilk;
+}
+
+.grid{
+    border: 3px solid black;
+    border-top: none;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+    "story1 story2 story3"
+    "story4 story5 story5";
+}
+
+.header{
+    border: 3px solid black;
+    width: 90%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 0 auto;
+}
+
+.paper-columns{
+    padding: 110px;
+    color:cadetblue;
+    font-weight: bold;
+    font-size:30px;
+    text-decoration: none;
+}
+
+.paper-columns:hover{
+    text-decoration: underline;
+}
+
+.newstitle{
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    justify-content: center;
+    font-size: 200%;
+}
+
+.luna{
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    display: grid;
+}
+
+.first{
+    grid-area: story1;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.second{
+    grid-area: story2;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.third{
+    grid-area: story3;
+    border-bottom: 3px solid black;
+}
+
+.four{
+    grid-area: story4;
+    border-right: 3px solid black;
+}
+
+.five{
+    grid-area: story5;
+}
+
+p{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+}
