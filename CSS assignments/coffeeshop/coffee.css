@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background: url(https://www.bhmpics.com/Downloaded-Images/coffee-brown-wallpaper/Coffee-Minimal-Wallpaper-Free-vector-graphic-on-Pixabay.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-position: center center; */
+    background-position: 0px 80px; 
+    height: 100%;
+}
+
+.nav-header{
+    background-color:#43281c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    gap: 0.5%;
+    font-weight: bold;
+    font-size: 17px;
+    color: #fbf2c0;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 25px;
+    height: 25px;
+}
+
+.grid1{
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+    column-gap: 20px;
+    width: 100vw;
+    height: 46vh;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.pane-1{
+    background-color: #EEE1D5;
+    height: 38vh;
+    width: 47vw;
+    border-radius: 5px;
+    margin-left: 0 auto;
+    /* box-shadow: 5px 10px #43281c; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.pane-2{
+    background-color: #EEE1D5;
+    height: 15vh;
+    width: 47vw;
+    border-radius: 5px;
+    margin-right: 0 auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.pane-3{
+    display: flex;
+    flex-direction: column;
+    background-color: #eee1d5;;
+    height: 22vh;
+    width: 47vw;
+    border-radius: 5px;
+    row-gap: 10px;
+    margin-right: 0 auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.heading{
+    color: #8C5A2C;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-weight: lighter;
+}
+
+.sub{
+    font-weight: lighter;
+    color: #B08968;
+}
+
+.grid3{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    margin: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #DDB892;
+    justify-content: space-between;
+}
+
+.grid3:last-of-type{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    border-bottom: none;
+}
+
+.grid4{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+}
+
+.cost{
+    justify-content: right;
+    align-items: right;
+    text-align: right;
+}
+
+.order{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.quantity{
+    font-weight: lighter;
+}
+
+.item-name{
+    font-weight: bolder;
+}
+
+.item-lists{
+    font-weight: lighter;
+    color: rgb(176,137,104);
+}
+
+.input-box {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+input {
+    border: 2px solid rgb(136,90,44);
+    padding: 8px;
+    border-radius: 100px;
+    background-color: #EEE1D5;
+    margin-left: 15px;
+    width: 44vw;
+    height: 3rem;
+}
+
+.input-label {
+    background-color: #EEE1D5;
+    color: rgb(136,90,44);
+    font-size: 11px;
+    position: absolute;
+    left: 25px;
+    top: -7px;
+    padding: 0 2px;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+.input-2 {
+    border: 2px solid rgb(136,90,44);
+    padding: 8px;
+    border-radius: 100px;
+    background-color: #EEE1D5;
+    margin: 10px;
+    margin-top: 0px;
+    margin-left: 17px;
+    width: 15rem;
+    height: 3rem;
+}
+
+.bill{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    row-gap: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 20px;
+    color: white;
+    justify-content: center;
+}
+
+.bill-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bill-2{
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+button{
+    align-self: center;
+    background-color: #deb993;
+    border: none;
+    padding: 10px 30px;
+    width: 100%;
+    border-radius: 100px;
+    font-size: 16px;
+    margin: 20px;
+}
+
