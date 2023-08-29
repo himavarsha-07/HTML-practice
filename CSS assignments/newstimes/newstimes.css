@@ -90,3 +90,43 @@ p{
     margin: 0 auto;
     padding: 10px;
 }
+
+@media screen and (max-width: 500px) {
+    .grid{
+        grid-template-areas: 
+        "story1"
+        "story2"
+        "story3"
+        "story4" 
+        "story5";
+    }
+
+    .first{
+        grid-area: story1;
+        border: none;
+        border-bottom: 3px solid black;
+    }
+    
+    .second{
+        grid-area: story2;
+        border: none;
+        border-bottom: 3px solid black;
+        height: 550px;
+    }
+    
+    .third{
+        grid-area: story3;
+        border: none;
+        border-bottom: 3px solid black;
+    }
+    
+    .four{
+        grid-area: story4;
+        border: none;
+        border-bottom: 3px solid black;
+    }
+    
+    .five{
+        grid-area: story5;
+    }
+}
